@@ -15,7 +15,7 @@ def main():
         print("Usage: %s d:\\optoconf.uf2 [setting=value ...]" % os.path.basename(sys.argv[0]), file=sys.stderr)
         print("Default settings:", file=sys.stderr)
         for key in settings.keys():
-            print("  %s=%d" % (key, settings.get(key)), file=sys.stderr)
+            print("  %s=%s" % (key, settings.get(key)), file=sys.stderr)
         sys.exit(1)
 
     # parse command line args
