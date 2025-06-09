@@ -100,4 +100,7 @@ For code usage examples, see `howfar.cli.*`.
 
 This project is licensed under MIT license, see [COPYING](COPYING).
 
+This project uses Microsoft UF2 code, licensed under MIT license.
 
+This project reimplements parts of [RingFS](https://github.com/cloudyourcar/ringfs),
+licensed under WTFPL license.
