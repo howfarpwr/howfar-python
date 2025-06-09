@@ -95,3 +95,9 @@ pip install ~/Downloads/howfar/howfar-python
 ```
 
 For code usage examples, see `howfar.cli.*`.
+
+## License
+
+This project is licensed under MIT license, see [COPYING](COPYING).
+
+

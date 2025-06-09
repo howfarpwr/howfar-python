@@ -4,9 +4,11 @@ version = "20240917"
 authors = [
   { name="Kosma Moczek", email="kosma@kosma.pl" },
 ]
-description = "Data extraction utilities for HowFar"
+description = "Configuration and data retrieval utilities for HowFar"
 readme = "README.md"
 requires-python = ">=3.11"
+license = "MIT"
+license-files = ["COPYING"]
 classifiers = [
     "Programming Language :: Python :: 3",
     "Operating System :: OS Independent",
@@ -14,9 +16,9 @@ classifiers = [
 dependencies = [
 ]
 
+[project.urls]
+Homepage = "https://github.com/howfarpwr/howfar-python"
+
 [project.scripts]
 howfar-read = "howfar.cli.read:main"
 howfar-conf = "howfar.cli.conf:main"
-
-[project.urls]
-Homepage = "https://github.com/howfarpwr/howfar-python"
